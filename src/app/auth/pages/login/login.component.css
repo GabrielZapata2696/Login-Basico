@@ -1,0 +1,39 @@
+.circular_image {
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgb(216, 216, 216);
+}
+
+.or {
+  text-align: center;
+  font-size: 1er;
+  background-image: linear-gradient(rgb(255, 255, 255), #000), linear-gradient(rgb(255, 255, 255), #000);
+  background-size: 45% 1px;
+  background-position: center left, center right;
+  background-repeat: no-repeat;
+}
+
+mat-card {
+  border-radius: 10px !important;
+}
+
+.img-bg {
+  background-image: url(https://media4.giphy.com/media/TM8Fu4TrgkNSmXh5cw/giphy.gif?cid=ecf05e47aw2g3wbs5rme8xu54xku78ybx6w2nz8eljb9qvmd&rid=giphy.gif&ct=g);
+  /* background-image: url(src\assets\images\bg-01.jpg); */
+
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+input {
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  input {
+    font-size: 15px;
+  }
+}
